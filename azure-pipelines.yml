@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: samplevm
+- test
 
 steps:
 - task: Maven@3
